@@ -1,0 +1,193 @@
+/* ============================================================================================= */
+/* ------------------------------------- SECCION PRINCIPAL- ------------------------------------ */
+/* ============================================================================================= */
+
+@media (max-width: 992px) {
+  nav ul {
+    background: var(--color);
+    width: 40%;
+    height: 90vh;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* display: none; */
+    border: 1px solid var(--background-color);
+    border-radius: 30px 0 0 30px;
+    padding-top: 80px;
+    z-index: 2;
+
+    transform: translate(200%);
+    transition: all 0.5s;
+  }
+
+  .fa-solid {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ ul {
+    display: flex;
+    background: black;
+    transform: translate(0);
+  }
+
+  #toggle-menu:checked ~ .overlay {
+    display: block;
+  }
+
+  .container-par {
+    max-width: 100%;
+  }
+
+  .li-link {
+    font-size: 20px;
+    font-family: var(--text-primary);
+    letter-spacing: 2px;
+    font-weight: 900;
+    color: var(--color);
+    transition: all 2s;
+    border-bottom: 1px solid #2b2727;
+    padding-bottom: 20px;
+  }
+
+  .registracion {
+    padding-inline: 50px;
+    margin-top: 180px;
+    border-top: 1px solid var(--color);
+    padding-top: 10px;
+  }
+
+  iframe {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-descripcion,
+  .span1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .logoEyE {
+    display: none;
+  }
+
+  .nosotros-title,
+  .zapas-title,
+  .arriba-title {
+    font-size: 3rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  nav ul {
+    width: 100%;
+    top: 70px;
+    right: 0;
+    border-radius: 0;
+  }
+
+  .section-zapatillas,
+  .section-arriba {
+    padding: 0;
+  }
+
+  .arriba-title {
+    font-size: 2.5rem;
+    margin: 100px 0 0 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 460px) {
+  .btn {
+    font-size: 12px;
+    padding: 2px 15px;
+  }
+
+  .arriba-img {
+    width: 434px;
+    height: 300px;
+  }
+}
+
+/* ============================================================================================= */
+/* ------------------------------------- SECCION INGRESAR- ------------------------------------- */
+/* ============================================================================================= */
+
+@media (max-width: 992px) {
+  .title-ingreso,
+  .contenedor-sesion {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-sesion {
+    font-size: 5rem;
+  }
+
+  .contenedor-sesion {
+    width: 90%;
+  }
+
+  input,
+  .input {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-sesion {
+    margin-left: 20px;
+  }
+
+  .title-ingreso,
+  .contenedor-sesion {
+    width: 100%;
+  }
+
+  .title-sesion {
+    font-size: 3rem;
+  }
+}
+
+/* ============================================================================================= */
+/* ------------------------------------- SECCION REGISTRARME ----------------------------------- */
+/* ============================================================================================= */
+
+@media (max-width: 992px) {
+  .title-registracion {
+    width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-registro {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-registro {
+    margin-left: 20px;
+  }
+
+  .title-registracion,
+  .contenedor-sesion {
+    width: 100%;
+  }
+
+  .title-registro {
+    font-size: 3rem;
+  }
+}

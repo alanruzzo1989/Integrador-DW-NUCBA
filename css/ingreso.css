@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.section-sesion {
+  width: 100%;
+  height: 60vh;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-ingreso {
+  width: 60%;
+}
+
+.title-sesion {
+  font-family: var(--text-primary);
+  font-size: 7rem;
+  line-height: 1.8;
+}
+
+.contenedor-sesion {
+  width: 60%;
+}
+
+.division-sesion {
+  padding-bottom: 20px;
+}
+
+.subtitle-sesion {
+  font-family: var(--text-secundary);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+input,
+.input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #0000004d;
+}
+
+.input-style {
+  background-color: var(--background-color);
+  margin-bottom: 20px;
+}
+
+.btn-style {
+  color: var(--color);
+  font-family: var(--text-secundary);
+  font-size: 16px;
+}
+
+.olvido {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--text-secundary);
+  line-height: 2.5;
+  margin-bottom: 20px;
+}
+
+.crear-cuenta {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: var(--text-secundary);
+}
+
+.crear-cuenta1 {
+  margin-left: 5px;
+  color: var(--background-color);
+  text-decoration: underline;
+}
